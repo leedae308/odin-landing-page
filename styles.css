@@ -114,7 +114,9 @@ button{
 
 .card-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex: 1;
+    gap: 50px;
 }
 
 .card{
@@ -125,6 +127,7 @@ button{
 
 .iamge-description{
     text-align: center;
+    max-width: 200px;
 }
 
 .card-img{
