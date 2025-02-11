@@ -1,5 +1,9 @@
 /* styles.css for odin-landing-page */
 
+*{
+    font-family: Roboto, sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -28,3 +32,54 @@ a{
     font-family: Roboto, sans-serif;
 }
 
+.logo{
+    font:24px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.body1{
+    display: flex;
+    padding: 150px 150px;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #1f2937;
+}
+
+.title-container{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-around;
+
+}
+
+#description{
+    font-size:18px;
+    color:#e5e7eb;
+    margin: 10;
+    
+}
+
+#title{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;
+    margin:0;
+}
+
+
+#title-image{
+    flex: 1;
+    border: 1px solid white;
+}
+
+#signup{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 16px;
+    border-style: hidden;
+    border-radius:5px;
+    width: 150px;
+    font-size:18px;
+}
