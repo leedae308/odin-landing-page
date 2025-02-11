@@ -131,3 +131,32 @@ a{
     border: 3px solid #3882f6;
     border-radius: 20px;
 }
+
+
+/* BODY 3 */
+.body3{
+    display:flex;
+    padding: 150px 200px;
+    background-color: #e5e7eb;
+}
+
+.quote-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size:36px;
+    font-weight:200;
+    font-style: italic;
+    color:#1f2937;
+    text-align: justify;
+    line-height: 50px;
+}
+
+.quote-author{
+    font-size: 25px;
+    font-weight:bold;
+    color:#1f2937;
+    align-self:flex-end;
+}
