@@ -10,6 +10,7 @@ body{
     margin:0;
 }
 
+/* HEADER */
 .header{
     display: flex;
     justify-content: space-between;
@@ -38,9 +39,11 @@ a{
     font-weight: 900;
 }
 
+
+/* BODY 1 */
 .body1{
     display: flex;
-    padding: 150px 150px;
+    padding: 100px 150px;
     justify-content: space-between;
     gap: 20px;
     background-color: #1f2937;
@@ -71,7 +74,11 @@ a{
 
 #title-image{
     flex: 1;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
 }
 
 #signup{
@@ -82,4 +89,45 @@ a{
     border-radius:5px;
     width: 150px;
     font-size:18px;
+}
+
+
+/* BODY 2 */
+.body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 150px 150px;
+    gap: 40px
+}
+
+#sectionheader{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iamge-description{
+    text-align: center;
+}
+
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
