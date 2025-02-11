@@ -1,0 +1,30 @@
+/* styles.css for odin-landing-page */
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.header .links{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 10px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
